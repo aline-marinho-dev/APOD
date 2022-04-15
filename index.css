@@ -1,0 +1,36 @@
+
+.painel{
+    background-color: aqua;
+    border-radius: 15px;
+    border-color: black !important;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-right: 20%;
+    opacity:0.90;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}  
+#date{
+    margin-left:35%;
+    margin-right: 30%;
+}
+#botao{
+    margin-left: 36%;
+
+}
+h3{
+    margin-left: 40%;
+}
+
+.imagem{
+    margin-left: 30%;
+    margin-right: 20%;
+    width: 400px;
+}
+.imagem{
+    margin-left: 30%;
+    margin-right: 20%;
+    width: 400px;
+
+}
