@@ -27,6 +27,7 @@ body,html{
 #botao{
     background-color: aquamarine;
     margin-left: 36%;
+    border-radius: 10px;
 
 }
 h3{
