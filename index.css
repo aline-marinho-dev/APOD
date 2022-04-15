@@ -1,26 +1,37 @@
+body,html{
+    background: url('https://i.pinimg.com/564x/95/68/0c/95680c96ac2c9c546d26fb47134fb304.jpg');
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
 
 .painel{
-    background-color: aqua;
-    border-radius: 15px;
-    border-color: black !important;
+    background-color: rgb(14, 56, 124);
+    color: beige;
+    border:5px solid black;
     margin-left: 20%;
     margin-top: 5%;
     margin-right: 20%;
-    opacity:0.90;
+    opacity:0.70;
     flex-direction: column;
     justify-content: center;
     padding: 25px;
 }  
 #date{
+    background-color: aquamarine;
     margin-left:35%;
     margin-right: 30%;
+    border-radius: 5px;
 }
 #botao{
+    background-color: aquamarine;
     margin-left: 36%;
 
 }
 h3{
+    color: white;
     margin-left: 40%;
+    font-size: 30px;
 }
 
 .imagem{
@@ -33,4 +44,7 @@ h3{
     margin-right: 20%;
     width: 400px;
 
+}
+#descricao{
+    color: white;
 }

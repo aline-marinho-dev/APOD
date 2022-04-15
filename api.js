@@ -11,12 +11,14 @@ $("#botao").click(function() {
     success:function(resposta){
       $("#resposta").html(function(){
       if(resposta.media_type ==="image"){
-
+        $('#descricao').text(resposta.explanation)
         return `<img class="imagem"src="${resposta.url}"/>`
       }else{
-
+        $('#descricao').text(resposta.explanation)
         return `<iframe class="video" src="${resposta.url}" frameborder="0"></iframe>`;
       }
+
+
       })  
     },
     error:function(error){
